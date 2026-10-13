@@ -44,10 +44,10 @@
         <!-- Sidebar Navigation -->
         <aside class="w-full md:w-64 bg-white rounded-xl shadow-sm border border-slate-200 p-4 shrink-0 h-fit">
             <div class="mb-4 pb-4 border-b border-slate-100 flex items-center space-x-3">
-                <img id="sidebar-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200" alt="Avatar Guru" class="w-10 h-10 rounded-full object-cover border border-blue-200" onerror="this.src='https://via.placeholder.com/150?text=Foto+Guru'">
+                <img id="sidebar-avatar" src="https://drive.google.com/file/d/1qL8ifc_6QhXa0vddYFwrG2PqeAePEYRI/view?usp=drive_link" alt="Avatar Guru" class="w-10 h-10 rounded-full object-cover border border-blue-200" onerror="this.src='https://via.placeholder.com/150?text=Foto+Guru'">
                 <div class="overflow-hidden">
-                    <h2 class="font-semibold text-sm text-slate-800 truncate" id="sidebar-name">Ahmad Fadli, S.Pd</h2>
-                    <p class="text-xs text-slate-500" id="sidebar-mapel">Guru</p>
+                    <h2 class="font-semibold text-sm text-slate-800 truncate" id="disp-nama">Nama Anda</h2>
+                    <p class="text-xs text-slate-500" id="disp-mapel">Guru Mapel</p>
                 </div>
             </div>
 
@@ -100,18 +100,17 @@
                             </label>
                             <input type="file" id="upload-avatar" accept="image/png, image/jpeg, image/jpg, image/webp" class="hidden" onchange="prosesUploadFoto(event)">
                         </div>
-                        <span class="text-[11px] text-slate-400 text-center max-w-[150px]">Link gambar PNG/JPG/JPEG tersimpan di CSV Spreadsheet</span>
                     </div>
 
                     <div class="flex-1 space-y-4 w-full">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <div class="bg-slate-50 p-3 rounded-lg border border-slate-100">
                                 <label class="text-xs text-slate-400 font-medium">Nama Lengkap</label>
-                                <p id="disp-nama" class="font-semibold text-slate-700">Ahmad Fadli, S.Pd</p>
+                                <p id="disp-nama" class="font-semibold text-slate-700">Nama Anda</p>
                             </div>
                             <div class="bg-slate-50 p-3 rounded-lg border border-slate-100">
                                 <label class="text-xs text-slate-400 font-medium">Mata Pelajaran</label>
-                                <p id="disp-mapel" class="font-semibold text-slate-700">Fisika</p>
+                                <p id="disp-mapel" class="font-semibold text-slate-700">Guru Mapel</p>
                             </div>
                             <div class="bg-slate-50 p-3 rounded-lg border border-slate-100">
                                 <label class="text-xs text-slate-400 font-medium">Pengalaman Kerja</label>
